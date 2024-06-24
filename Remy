@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemyInk!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#exams">Exams & Quizzes</a></li>
+                <li><a class="nav-link" href="#essays">Essays & Research</a></li>
+                <li><a class="nav-link" href="#tutoring">Tutoring</a></li>
+            </ul>
+        </nav>
+        <video id="video" src="https://www.example.com/sample-video.mp4" controls></video>
+        <img id="header-img" src="https://api.logo.com/api/v2/images?logo=logo_9cf679d1-368f-4d61-8be1-926711404232&u=1718011239495&format=svg&margins=166&width=1000&height=750&fit=contain" alt="Remy Ink logo">
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to <br> <span id="remy">REMY INK!</span></h1>
+            <p id="description">At Remy Ink! we focus on the basics of Academia, and strive to provide quality above everything else.</p>
+            <fieldset>
+                <legend>Features</legend>
+                <ol>
+                    <li>0% AI</li>
+                    <li>Less than 10% Plagiarism</li>
+                    <li>Above 90% grammar accuracy</li>
+                    <li>Standard Papers</li>
+                </ol>
+            </fieldset>
+        </section>
+        <h2>Services</h2>
+        <p>Our services include:</p>
+        <section role="region" aria-labelledby="exams-quizzes">
+            <h3 id="exams">Exams & Quizzes</h3>
+            <div class="images">
+                <img id="img-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIH2Y5cGMOCo24Eth1u4AuHVsq3D3252uFPg&s" alt="Exams">
+                <img id="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIpUorRQbWTkfUuRheqRAnYPBNz4RwYGCjNA&s" alt="Quizzes">
+            </div>
+        </section>
+        <section role="region" aria-labelledby="essays-research">
+            <h3 id="essays">Essays & Research</h3>
+            <div class="images">
+                <img class="img-3" src="https://content.presentermedia.com/content/pres/00020000/20955/slide01.jpg" alt="Essays">
+                <img class="img-4" src="https://hatdelossantos19.wordpress.com/wp-content/uploads/2013/01/subjects1-1.png" alt="Research">
+            </div>
+        </section>
+        <section role="region" aria-labelledby="tutoring">
+            <h3 id="tutoring">Tutoring</h3>
+            <div class="images">
+                <img class="img-5" src="https://www.technologiesflare.com/wp-content/uploads/2021/08/online-tutoring-students.jpg" alt="Tutoring session">
+                <img class="img-6" src="https://www.herzing.edu/sites/default/files/styles/fp_960_480/public/images/blog/tutoring.png.webp?itok=hhVXnbd4" alt="Tutoring">
+            </div>
+        </section>
+    </main>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Email</label>
+        <input class="email" id="email" name="email" type="email" placeholder="remymoses6@gmail.com">
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <footer>
+        <p>Est 2024.</p>
+        <p><a href="#">View Terms & Conditions</a></p>
+    </footer>
+</body>
+</html>
